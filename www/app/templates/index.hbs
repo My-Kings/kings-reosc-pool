@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-5">
         <h1 style="font-size: 24px">
-          <strong>EOS Classic Mining Pool</strong>
+          <strong>King's REOSC PPLNS Mining Pool</strong>
         </h1>
         <strong>Min. payout threshold: {{config.PayoutThreshold}}</strong><br/>
         <span class="label label-success">PROP</span> Stable and profitable pool with regular payouts.<br/>
@@ -44,13 +44,19 @@
   <div>
     <hr/>
     <h4 class="note note-info text-center">
-      EthDcrMiner64.exe -epool {{config.StratumHost}}:8008 -esm 0 -ewal &lt;address&gt; -eworker &lt;WORKER&gt; -allcoins 1 -allpools 1
+      EthDcrMiner64.exe -epool {{config.StratumHost}}:8008 -esm 0 -ewal &lt;address&gt; -eworker &lt;WORKER&gt; -allcoins etc -allpools 0
     </h4>
   </div>
   <div>
     <hr/>
     <h4 class="note note-info text-center">
       ethminer.exe -F {{config.HttpHost}}:{{config.HttpPort}}/&lt;address&gt;/&lt;worker&gt; -G
+    </h4>
+  </div>
+  <div>
+    <hr/>
+    <h4 class="note note-info text-center">
+      SOLO Is Best For NiceHash But If You Want To Mine Here: For NiceHash Select Algo= DaggerHashimoto Set epool= stratum+tcp://kingsminer.ddnsking.com Port= 8009 Set ewal= <Your Wallet> Set Pass = #
     </h4>
   </div>
 </div>

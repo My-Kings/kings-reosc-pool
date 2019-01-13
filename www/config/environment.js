@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'open-eosc-pool',
+    modulePrefix: 'kings-reosc-pool',
     environment: environment,
     rootURL: '/',
     locationType: 'hash',
@@ -30,7 +30,7 @@ module.exports = function(environment) {
       PayoutThreshold: '0.5 EOSC',
 
       // For network hashrate (change for your favourite fork)
-      BlockTime: 14.4
+      BlockTime: 15.0
     }
   };
 

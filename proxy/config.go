@@ -1,10 +1,10 @@
 package proxy
 
 import (
-	"github.com/eosclassic/open-eosc-pool/api"
-	"github.com/eosclassic/open-eosc-pool/payouts"
-	"github.com/eosclassic/open-eosc-pool/policy"
-	"github.com/eosclassic/open-eosc-pool/storage"
+	"github.com/My-Kings/kings-reosc-pool/api"
+	"github.com/My-Kings/kings-reosc-pool/payouts"
+	"github.com/My-Kings/kings-reosc-pool/policy"
+	"github.com/My-Kings/kings-reosc-pool/storage"
 )
 
 type Config struct {

@@ -13,10 +13,10 @@ import (
 
 	"github.com/yvasiyarov/gorelic"
 
-	"github.com/eosclassic/open-eosc-pool/api"
-	"github.com/eosclassic/open-eosc-pool/payouts"
-	"github.com/eosclassic/open-eosc-pool/proxy"
-	"github.com/eosclassic/open-eosc-pool/storage"
+	"github.com/My-Kings/kings-reosc-pool/api"
+	"github.com/My-Kings/kings-reosc-pool/payouts"
+	"github.com/My-Kings/kings-reosc-pool/proxy"
+	"github.com/My-Kings/kings-reosc-pool/storage"
 )
 
 var cfg proxy.Config

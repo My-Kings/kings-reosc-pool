@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/eosclassic/open-eosc-pool/rpc"
-	"github.com/eosclassic/open-eosc-pool/util"
+	"github.com/My-Kings/kings-reosc-pool/rpc"
+	"github.com/My-Kings/kings-reosc-pool/util"
 )
 
 // Allow only lowercase hexadecimal with 0x prefix

@@ -10,7 +10,7 @@ fi
 # Create fake Go workspace if it doesn't exist yet.
 workspace="$PWD/build/_workspace"
 root="$PWD"
-ethdir="$workspace/src/github.com/eosclassic"
+ethdir="$workspace/src/github.com/My-Kings/kings-reosc-pool"
 if [ ! -L "$ethdir/kings-reosc-pool" ]; then
     mkdir -p "$ethdir"
     cd "$ethdir"

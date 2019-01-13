@@ -11,10 +11,10 @@ fi
 workspace="$PWD/build/_workspace"
 root="$PWD"
 ethdir="$workspace/src/github.com/eosclassic"
-if [ ! -L "$ethdir/open-eosc-pool" ]; then
+if [ ! -L "$ethdir/kings-reosc-pool" ]; then
     mkdir -p "$ethdir"
     cd "$ethdir"
-    ln -s ../../../../../. open-eosc-pool
+    ln -s ../../../../../. kings-reosc
     cd "$root"
 fi
 
@@ -25,8 +25,8 @@ GOBIN="$PWD/build/bin"
 export GOPATH GOBIN
 
 # Run the command inside the workspace.
-cd "$ethdir/open-eosc-pool"
-PWD="$ethdir/open-eosc-pool"
+cd "$ethdir/kings-reosc-pool"
+PWD="$ethdir/kings-reosc-pool"
 
 # Launch the arguments with the configured environment.
 exec "$@"

@@ -1,7 +1,7 @@
 {
   "name": "open-eosc-pool",
   "version": "0.0.0",
-  "description": "Ethereum Pool",
+  "description": "REOSC Pool",
   "directories": {
     "doc": "doc",
     "test": "tests"

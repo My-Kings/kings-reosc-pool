@@ -15,22 +15,17 @@ echo "Checking go & node version"
 go version
 node -v
 
-echo "Installing EOS Classic"
+echo "Installing REOSC"
 
-git clone -b stable https://github.com/eosclassic/go-eosclassic
-cd go-eosclassic
-make geth
-sudo cp build/bin/geth /usr/local/bin/geth
+wget https://github.com/REOSC/mn/releases/download/2.1.4/reosc-node
+chmod +x reosc-node
+sudo cp reosc-node /usr/bin/reosc-node
 
-echo "EOS Classic version"
+echo "Installing REOSC Pool Software"
 
-geth version
-
-echo "Installing EOS Classic Pool Software"
-
-git clone https://github.com/eosclassic/open-eosc-pool
-cd open-eosc-pool
+git clone https://github.com/My-Kings/kings-reosc-pool
+cd kings-reosc-pool
 make all
-sudo cp build/bin/open-eosc-pool /usr/local/bin/open-eosc-pool
+sudo cp build/bin/kings-reosc-pool /usr/local/bin/kings-reosc-pool
 
-echo "Done installing EOS Classic & EOS Classic Pool Software!, Please configure your pool with the following instructions on https://github.com/eosclassic/open-eosc-pool/blob/master/README.md"
+echo "Done installing REOSC-Node & REOSC Pool Software!, Please configure your pool with the following instructions on Google

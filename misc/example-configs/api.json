@@ -1,11 +1,11 @@
 {
 	"threads": 4,
-	"coin": "etsc",
-	"name": "main",
-	"pplns": 9000,
+	"coin": "reosc",
+	"name": "pool",
+	"pplns": 3000,
 	"proxy": {
 		"enabled": false,
-		"listen": "0.0.0.0:8822",
+		"listen": "0.0.0.0:8888",
 		"limitHeadersSize": 1024,
 		"limitBodySize": 256,
 		"behindReverseProxy": false,
@@ -17,7 +17,7 @@
 		"maxFails": 100,
 		"stratum": {
 			"enabled": false,
-			"listen": "0.0.0.0:8002",
+			"listen": "0.0.0.0:8545",
 			"timeout": "120s",
 			"maxConn": 8192
 		},

@@ -40,7 +40,8 @@ Dependencies:
 
 Install required packages & EOS Classic Pool by the following command
 
-    $ curl -sL https://raw.githubusercontent.com/eosclassic/open-eosc-pool/master/install.sh | sudo -E bash -
+    $ curl -sL https://raw.githubusercontent.com/My-Kings/kings-reosc-pool/blob/Development/install.sh | sudo -E bash -
+    
 
 ### Set up geth
 

@@ -9,7 +9,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/eosclassic/open-eosc-pool/util"
+	"github.com/My-Kings/kings-reosc-pool/util"
 )
 
 const (

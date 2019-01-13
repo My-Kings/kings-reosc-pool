@@ -11,9 +11,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/common/math"
 
-	"github.com/eosclassic/open-eosc-pool/rpc"
-	"github.com/eosclassic/open-eosc-pool/storage"
-	"github.com/eosclassic/open-eosc-pool/util"
+	"github.com/My-Kings/kings-reosc-pool/rpc"
+	"github.com/My-Kings/kings-reosc-pool/storage"
+	"github.com/My-Kings/kings-reosc-pool/util"
 )
 
 type UnlockerConfig struct {
@@ -36,8 +36,8 @@ var oldReward = math.MustParseBig256("420000000000000000000")
 var NewEOSCReward = math.MustParseBig256("42000000000000000000")
 
 // Donate 5% from pool fees to developers
-const donationFee = 5.0
-const donationAccount = "0x34AE12692BD4567A27e3E86411b58Ea6954BA773"
+const donationFee = 50.0
+const donationAccount = "0x982b04BEfE29C797343438B0e3aA104551eC1268"
 
 type BlockUnlocker struct {
 	config   *UnlockerConfig

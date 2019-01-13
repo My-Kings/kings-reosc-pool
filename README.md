@@ -1,4 +1,4 @@
-## Open Source EOS Classic (EOSC) Mining Pool
+## Open Source REOSC Mining Pool
 
 [![Build Status](https://travis-ci.org/eosclassic/open-eosc-pool.svg?branch=master)](https://travis-ci.org/eosclassic/open-eosc-pool)
 [![Go Report Card](https://goreportcard.com/badge/github.com/eosclassic/open-eosc-pool)](https://goreportcard.com/report/github.com/eosclassic/open-eosc-pool)

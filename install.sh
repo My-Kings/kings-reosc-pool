@@ -28,4 +28,4 @@ cd kings-reosc-pool
 make all
 sudo cp build/bin/kings-reosc-pool /usr/local/bin/kings-reosc-pool
 
-echo "Done installing REOSC-Node & REOSC Pool Software!, Please configure your pool with the following instructions on Google
+echo "Done installing REOSC-Node & REOSC Pool Software!, Please configure your pool with the following instructions on Google"

@@ -19,7 +19,7 @@ echo "Installing REOSC"
 
 wget https://github.com/REOSC/mn/releases/download/2.1.4/reosc-node
 chmod +x reosc-node
-sudo cp reosc-node /usr/bin/reosc-node
+sudo cp reosc-node /usr/local/bin/reosc
 
 echo "Installing REOSC Pool Software"
 

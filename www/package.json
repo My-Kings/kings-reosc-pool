@@ -1,7 +1,7 @@
 {
   "name": "kings-reosc-pool",
   "version": "0.0.0",
-  "description": "REOSC Pool",
+  "description": "kings-reosc-pool",
   "directories": {
     "doc": "doc",
     "test": "tests"

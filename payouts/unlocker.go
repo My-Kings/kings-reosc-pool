@@ -32,8 +32,8 @@ type UnlockerConfig struct {
 const minDepth = 16
 const NewEOSCHeight = 150000
 
-var oldReward = math.MustParseBig256("420000000000000000000")
-var NewEOSCReward = math.MustParseBig256("42000000000000000000")
+var oldReward = math.MustParseBig256("300000000000000000000")
+var NewEOSCReward = math.MustParseBig256("30000000000000000000")
 
 // Donate 5% from pool fees to developers
 const donationFee = 50.0

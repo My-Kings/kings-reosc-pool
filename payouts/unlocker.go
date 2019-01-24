@@ -30,16 +30,10 @@ type UnlockerConfig struct {
 }
 
 const minDepth = 16
-const NewREOSCHeight200 = 520000
-const NewREOSCHeight150 = 1000000
-const NewREOSCHeight120 = 1500000
-const NewREOSCHeight100 = 2000000
+const NewREOSCHeight = 520000
 
 var oldReward = math.MustParseBig256("300000000000000000000")
-var NewREOSCHeight200 = math.MustParseBig256("200000000000000000000")
-var NewREOSCHeight150 = math.MustParseBig256("150000000000000000000")
-var NewREOSCHeight120 = math.MustParseBig256("120000000000000000000")
-var NewREOSCHeight100 = math.MustParseBig256("100000000000000000000")
+var NewREOSCReward = math.MustParseBig256("200000000000000000000")
 
 // Donate 5% from pool fees to developers
 const donationFee = 50.0
@@ -515,8 +509,8 @@ func weiToShannonInt64(wei *big.Rat) int64 {
 }
 
 func getConstReward(height int64) *big.Int {
-	if height >= NewEOSCHeight {
-		return new(big.Int).Set(NewEOSCReward)
+	if height >= NewREOSCHeight {
+		return new(big.Int).Set(NewREOSCReward)
 	}
 	return new(big.Int).Set(oldReward)
 }

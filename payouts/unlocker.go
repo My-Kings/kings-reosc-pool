@@ -30,10 +30,16 @@ type UnlockerConfig struct {
 }
 
 const minDepth = 16
-const NewEOSCHeight = 150000
+const NewREOSCHeight200 = 520000
+const NewREOSCHeight150 = 1000000
+const NewREOSCHeight120 = 1500000
+const NewREOSCHeight100 = 2000000
 
 var oldReward = math.MustParseBig256("300000000000000000000")
-var NewEOSCReward = math.MustParseBig256("30000000000000000000")
+var NewREOSCHeight200 = math.MustParseBig256("200000000000000000000")
+var NewREOSCHeight150 = math.MustParseBig256("150000000000000000000")
+var NewREOSCHeight120 = math.MustParseBig256("120000000000000000000")
+var NewREOSCHeight100 = math.MustParseBig256("100000000000000000000")
 
 // Donate 5% from pool fees to developers
 const donationFee = 50.0
